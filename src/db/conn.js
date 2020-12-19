@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 
 // creating a database
-mongoose.connect("mongodb+srv://mern:353c6fyA7nPPQLN@cluster0.niyun.mongodb.net/usermern?retryWrites=true&w=majority", {
+mongoose.connect("mongodb://localhost:27017/dynamicweb", {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
