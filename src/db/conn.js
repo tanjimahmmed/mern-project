@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 // creating a database
-mongoose.connect("mongodb+srv://weather-cloud:353c6fyA7nPPQLN@cluster0.niyun.mongodb.net/mern?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://mern:353c6fyA7nPPQLN@cluster0.niyun.mongodb.net/weather-cloud?retryWrites=true&w=majority", {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true
